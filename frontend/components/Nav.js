@@ -1,21 +1,22 @@
 import Link from 'next/link';
 import NavStyles from './styles/NavStyles';
 
+// noinspection HtmlUnknownTarget
 const Nav = () => (
     <NavStyles>
-        <Link href="/items">
-            <a>Items</a>
+        <Link href='/items'>
+            <a>Shop</a>
         </Link>
-        <Link href="/sell">
+        <Link href='/sell'>
             <a>Sell</a>
         </Link>
-        <Link href="/signup">
+        <Link href='/signup'>
             <a>Signup</a>
         </Link>
-        <Link href="/orders">
+        <Link href='/orders'>
             <a>Orders</a>
         </Link>
-        <Link href="/me">
+        <Link href='/me'>
             <a>Account</a>
         </Link>
     </NavStyles>

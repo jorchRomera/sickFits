@@ -11,18 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sickFits.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/datamodel.prisma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/createServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/Items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sickFits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sickFits.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1600368562162" duration="383000" />
       <workItem from="1600368974830" duration="3610000" />
       <workItem from="1600387473465" duration="11000" />
-      <workItem from="1600708528912" duration="7796000" />
+      <workItem from="1600708528912" duration="13086000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600380675554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <created>1600719063291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600719063291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +140,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600382616930" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600380677150">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600719065419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600380677150" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600719065419" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1600722319957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600722319957" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600382965509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
