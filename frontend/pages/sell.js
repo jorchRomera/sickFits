@@ -1,9 +1,9 @@
-const Home = props => {
+const Sell = props => {
     return (
         <div>
-            <p>Hey!</p>
+            <p>Sell!</p>
         </div>
     );
 }
 
-export default Home;
+export default Sell;
