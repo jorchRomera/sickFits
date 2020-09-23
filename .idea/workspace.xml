@@ -10,16 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/Items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sickFits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sickFits.iml" afterDir="false" />
+    <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="wip">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/sell.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +62,6 @@
       <recent name="D:\Jorch\Github\sickFits\frontend\pages" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +73,12 @@
       <workItem from="1600368562162" duration="383000" />
       <workItem from="1600368974830" duration="3610000" />
       <workItem from="1600387473465" duration="11000" />
-      <workItem from="1600708528912" duration="13086000" />
+      <workItem from="1600708528912" duration="14483000" />
+      <workItem from="1600727366640" duration="16000" />
+      <workItem from="1600727393056" duration="47000" />
+      <workItem from="1600731955869" duration="6000" />
+      <workItem from="1600793992578" duration="7816000" />
+      <workItem from="1600890664628" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -101,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600719063291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wip">
+      <created>1600725942149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600725942149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,14 +140,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600382616930" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600719065419">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1600727372082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600719065419" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1600722319957">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600727372082" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600725951234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600722319957" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600725951234" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1600891567738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600891567738" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600382965509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
