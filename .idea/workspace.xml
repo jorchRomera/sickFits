@@ -14,12 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="wip">
+      <change afterPath="$PROJECT_DIR$/frontend/components/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/datamodel.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/backend/datamodel.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,19 @@
       <recent name="D:\Jorch\Github\sickFits\frontend\components" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +91,8 @@
       <workItem from="1600890664628" duration="2665000" />
       <workItem from="1601050216213" duration="9692000" />
       <workItem from="1601301353513" duration="11980000" />
-      <workItem from="1601380182746" duration="2133000" />
+      <workItem from="1601380182746" duration="2495000" />
+      <workItem from="1601400247295" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -125,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601318175539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="user sign up and permission flow">
+      <created>1601382685736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601382685736</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="user sign up and permission flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="user sign up and permission flow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600368946647">
@@ -168,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600727372082" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601318195910">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601382687393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601318195910" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601382687393" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1601312563344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
