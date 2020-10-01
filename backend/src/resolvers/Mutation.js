@@ -37,6 +37,10 @@ const Mutation = {
         ctx.response.cookie('token', token, { httpOnly: true, maxAge: 1000 * 60 * 60 * 24 }); // 1 day cookie
         return user;
     },
+    signout(parent, args, ctx, info) {
+        ctx.response.clearCookie('token');
+        return { message: 'Goodbye!' };
+    },
 };
 
 module.exports = Mutation;
