@@ -53,7 +53,7 @@ const Mutation = {
         const randomBytesPromisified = promisify(randomBytes);
         const resetToken = (await randomBytesPromisified(20)).toString('hex');
         const resetTokenExpiry = Date.now() + oneHour;
-        const res = await ctx.db.mutation.updateUser({
+        await ctx.db.mutation.updateUser({
             where: { email },
             data: { resetToken, resetTokenExpiry }
         });
@@ -69,7 +69,7 @@ const Mutation = {
         });
         if (!user) throw new Error('This token is either invalid or expired!');
         const newPassword = await bcrypt.hash(password, 10);
-        const updatedUser = await ctx.db.mutation.updatedUser({
+        const updatedUser = await ctx.db.mutation.updateUser({
             where: { email: user.email },
             data: { password: newPassword, resetToken: null, resetTokenExpiry: null },
         });
