@@ -9,9 +9,12 @@ const oneHour = 3600000;
 
 const Mutation = {
     async createItem(parent, args, ctx, info) {
-        //TODO: Check if they are logged in
+        if (!ctx.request.userId) throw new Error('You must be logged in to do that!');
         return await ctx.db.mutation.createItem({
-            data: {...args}
+            data: {
+                user: { connect: { id: ctx.request.userId }},
+                ...args,
+            }
         }, info);
     },
     updateItem(parent, args, ctx, info) {
@@ -58,7 +61,7 @@ const Mutation = {
             where: { email },
             data: { resetToken, resetTokenExpiry }
         });
-        const mail = await transport.sendMail({
+        await transport.sendMail({
             from: 'jorge.a.romera@gmail.com',
             to: email,
             subject: 'Your Password Reset Token',
