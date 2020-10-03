@@ -22,9 +22,13 @@ const DeleteItem = ({children, id}) => {
             }}
         >
             {(deleteItem) => (
-                <button onClick={() => {
+                <button onClick={async () => {
                     if (confirm('Are you sure you want to delete this item?')) {
-                        deleteItem();
+                        try {
+                            await deleteItem();
+                        } catch (e) {
+                            alert(e.message);
+                        }
                     }
                 }}>{children}</button>
             )}
