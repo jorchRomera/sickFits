@@ -14,12 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="permissions manager">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Permissions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/permissions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Permissions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +58,6 @@
       <recent name="D:\Jorch\Github\sickFits\frontend\components" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +82,8 @@
       <workItem from="1601433315822" duration="3917000" />
       <workItem from="1601478842791" duration="3364000" />
       <workItem from="1601520796118" duration="2953000" />
-      <workItem from="1601651368647" duration="13962000" />
+      <workItem from="1601651368647" duration="14575000" />
+      <workItem from="1601761524028" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -213,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601674686982</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="permissions manager">
+      <created>1601678063435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601678063435</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600727372082" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601674688673">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601678065371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601674688673" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601678065371" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1601675494678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,9 +270,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601070387992" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601675840909">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601761620461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601675840909" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601761620461" />
   </component>
 </project>
