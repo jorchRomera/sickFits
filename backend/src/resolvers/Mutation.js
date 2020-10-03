@@ -1,5 +1,6 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const {hasPermission} = require("../utils");
 const { transport, makeANiceEmail } = require("../mail");
 const { randomBytes } = require('crypto');
 const { promisify } = require('util');
@@ -88,6 +89,25 @@ const Mutation = {
         const token = jwt.sign({ userId: updatedUser.id }, process.env.APP_SECRET);
         ctx.response.cookie('token', token, { httpOnly: true, maxAge: oneDay });
         return updatedUser;
+    },
+    async updatePermissions(parent, args, ctx, info) {
+        if (!ctx.request.userId) throw new Error('You must be logged in');
+        const currentUser = await ctx.db.query.user({
+            where : {
+                id: ctx.request.userId,
+            }
+        }, info );
+        hasPermission(currentUser, ['ADMIN', 'PERMISSIONUPDATE']);
+        return ctx.db.mutation.updateUser({
+            data: {
+                permissions: {
+                    set: args.permissions
+                }
+            },
+            where: {
+                id: args.userId
+            },
+        }, info);
     },
 };
 
