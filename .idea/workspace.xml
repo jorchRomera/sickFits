@@ -13,12 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="permissions manager">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
+    <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="apollo local state queries and mutations">
+      <change afterPath="$PROJECT_DIR$/frontend/components/AddToCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/withData.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/withData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/datamodel.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/backend/datamodel.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Item.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1601520796118" duration="2953000" />
       <workItem from="1601651368647" duration="14575000" />
       <workItem from="1601761524028" duration="5699000" />
-      <workItem from="1601916224233" duration="2699000" />
+      <workItem from="1601916224233" duration="6485000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601766665779</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="apollo local state queries and mutations">
+      <created>1601922962462</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601922962462</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +285,8 @@
     <MESSAGE value="updated permissions on local state" />
     <MESSAGE value="updated permissions on the server" />
     <MESSAGE value="Locking down delete item permissions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Locking down delete item permissions" />
+    <MESSAGE value="apollo local state queries and mutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="apollo local state queries and mutations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600368946647">
@@ -299,10 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600727372082" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601766667122">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601923037577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601766667122" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601923037577" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1601675494678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,9 +321,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601916895109" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601922753865">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601952513197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601922753865" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601952513197" />
   </component>
 </project>
