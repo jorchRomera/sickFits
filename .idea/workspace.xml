@@ -14,11 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867bc753-7522-4a95-bcae-f3ad49c2e4b7" name="Default Changelist" comment="displaying cart items and totals">
-      <change afterPath="$PROJECT_DIR$/frontend/components/CartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/RemoveFromCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/AddToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CartItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1601520796118" duration="2953000" />
       <workItem from="1601651368647" duration="14575000" />
       <workItem from="1601761524028" duration="5699000" />
-      <workItem from="1601916224233" duration="10110000" />
+      <workItem from="1601916224233" duration="11191000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1600380675554</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601953004050</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="displaying cart items and totals">
+      <created>1601957363800</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601957363800</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600727372082" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601953005423">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601957365366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601953005423" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601957365366" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1601675494678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,9 +334,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601916895109" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601954006175">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601957512749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601954006175" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601957512749" />
   </component>
 </project>
